@@ -1,0 +1,84 @@
+@media screen and (max-width: 1440px) {
+  div.how-it-works div.items {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+}
+@media screen and (max-width: 768px) {
+  .custom-container {
+    margin: 0px 19px;
+  }
+  .title {
+    font-size: 30px;
+    line-height: normal;
+  }
+  /* ============================ */
+  /* media query for main menu */
+  /* ============================ */
+  .btn-custom-login,
+  .btn-custom-signup {
+    padding: 7px 4px;
+    margin: 0px 5px;
+  }
+  .btn-custom-login img,
+  .btn-custom-signup img {
+    display: none;
+  }
+  .btn-custom-login span,
+  .btn-custom-signup span {
+    padding: 7px 7px;
+  }
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 0px;
+  }
+  /* ============================ */
+  /* media query for banners */
+  /* ============================ */
+  .banner-title {
+    font-size: 36px;
+    line-height: 40px; /* 125% */
+  }
+  .first-banner,
+  .second-banner,
+  .third-banner {
+    padding-bottom: 12px !important;
+    height: 240px !important;
+  }
+  /* ============================ */
+  /* media query for how it works */
+  /* ============================ */
+  div.how-it-works div.items {
+    margin: 0px;
+  }
+  div.how-it-works div.icon {
+    width: 75px;
+    height: 75px;
+  }
+  div.how-it-works div.icon img {
+    width: 50px;
+    height: 50px;
+  }
+
+  div.benefits div.items img {
+    height: 265px;
+    object-fit: cover;
+    width: 100%;
+  }
+  div.testimonials img {
+    margin: 0px 0px 33px 0px;
+  }
+
+  div.faq p.question {
+    font-size: 21px;
+  }
+  div.faq p.answer {
+    font-size: 15px;
+  }
+}

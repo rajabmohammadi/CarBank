@@ -1,0 +1,101 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+/* our variables */
+:root {
+  --smoke: #394749;
+  --smoke-medium: #516c70;
+  --smoke-light: #99aeb2;
+  --smoke-clear: #c4d3d6;
+  --grey99: #999999;
+  --greyDB: #bdbdbd;
+  --lamborghini: #01a11a;
+  --link: #0066ff;
+  --mc-laren: #ee8100;
+  --black: #000000;
+  --roboto: "Roboto";
+  --roboto-condensed: "Roboto Condensed";
+  --red: #d2232a;
+}
+p {
+  color: var(--black);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.396px;
+}
+.title {
+  color: var(--red);
+  font-family: var(--roboto);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120px; /* 187.5% */
+  letter-spacing: -1px;
+  /* margin: 0px 67px; */
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: var(--black);
+  font-family: var(--roboto);
+  line-height: normal;
+  font-style: normal;
+}
+.h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.h5 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.p1 {
+  color: var(--black);
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p2 {
+  color: var(--black);
+  font-family: var(--roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p3 {
+  color: var(--black);
+  font-family: var(--roboto);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.custom-container {
+  margin: 0px 66px;
+}
+
+/* ===================== */

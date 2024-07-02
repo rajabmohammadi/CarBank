@@ -1,0 +1,193 @@
+/* style for navigation */
+nav {
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+nav a.navbar-brand img {
+  height: 83px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.nav-link {
+  color: var(--smoke-medium) !important;
+  text-align: center;
+  font-family: var(--roboto-condensed);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 17px !important;
+  display: inline-block;
+}
+.nav-link {
+  border-right: 1px solid transparent;
+  border-image: linear-gradient(180deg, #d2dddf 0%, #e7f4f6 100%);
+  border-image-slice: 1;
+}
+.btn-custom-login,
+.btn-custom-signup {
+  font-family: var(--roboto-condensed);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 17px;
+  border: 2px solid var(--link);
+}
+
+.btn-custom-login {
+  background-color: white;
+  color: var(--link);
+  margin: 0px 17px;
+}
+.btn-custom-login span,
+.btn-custom-signup span {
+  padding: 0px 15px;
+}
+
+.btn-custom-signup {
+  background-color: var(--link);
+  color: white;
+}
+
+/* style for header banner */
+.first-banner {
+  width: 100%;
+  height: 688px;
+  background-image: url("../img/image\ 52.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 63px;
+}
+div.summary {
+  padding-bottom: 119px;
+}
+div.summary p.summary {
+  font-family: var(--roboto);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 0.396px;
+  margin-left: 468px;
+  margin-right: 144px;
+  text-indent: 60px;
+}
+/* ========================================== */
+/* style for how it works section */
+/* ========================================== */
+div.how-it-works div.items {
+  /* margin: 37px 260px; */
+}
+div.how-it-works div.items div.row div.col-2 {
+  margin-right: 49px;
+}
+div.how-it-works div.icon {
+  width: 159px;
+  height: 159px;
+  background-color: var(--red);
+  border-radius: 50%;
+}
+div.how-it-works div.items div.row {
+  margin-bottom: 37px;
+}
+/* ========================================== */
+/* style for benefits */
+/* ========================================== */
+
+div.benefits {
+  padding-bottom: 120px;
+}
+div.benefits div.items {
+  /* margin: 0px 61px; */
+}
+div.benefits div.items img {
+  margin-bottom: 19px;
+}
+/* ========================================== */
+/* style for second banner */
+/* ========================================== */
+.second-banner {
+  width: 100%;
+  height: 863px;
+  background-image: url("../img/image\ 54.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 63px;
+}
+.banner-title {
+  color: #fff;
+  font-family: var(--roboto);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120px; /* 125% */
+  letter-spacing: -1px;
+}
+/* ========================================== */
+/* style for testimonials */
+/* ========================================== */
+
+div.testimonials {
+  padding-top: 55px;
+  padding-bottom: 119px;
+}
+div.testimonials img {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  margin-bottom: 33px;
+}
+
+div.faq {
+  padding-bottom: 119px;
+}
+div.question-answer {
+  margin-top: 42px;
+}
+p.question {
+  font-family: var(--roboto);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.396px;
+}
+p.answer {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.396px;
+}
+
+div.third-banner {
+  width: 100%;
+  height: 896px;
+  background-image: url("../img/image\ 73.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 63px;
+}
+
+div.contact-us {
+  padding: 26px 0px 65px 0px;
+  background-color: #f9f9f9;
+}
+div.social-form {
+  padding-top: 22px;
+}
+div.whatsapp,
+div.email {
+  margin-bottom: 27px;
+}
+div.whatsapp i,
+div.email i {
+  font-size: 50px;
+  font-size: 50px;
+  margin-right: 27px;
+}
