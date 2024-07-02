@@ -27,7 +27,10 @@
   }
   .btn-custom-login span,
   .btn-custom-signup span {
-    padding: 7px 7px;
+    padding: 0px 7px;
+  }
+  nav a.navbar-brand img {
+    width: 140px;
   }
   .container,
   .container-fluid,
