@@ -13,7 +13,9 @@
 </head>
 
 <body>
-   <!-- start navigation menu, you can find the style in website.css file -->
+   <!-- ============================== -->
+   <!--main menu section -->
+   <!-- ============================== -->
    <nav class="navbar navbar-expand-xl bg-body-tertiary p-0">
       <div class="container-fluid ps-0">
          <a class="navbar-brand p-0" href="#">
@@ -26,22 +28,22 @@
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+                  <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">How It works</a>
+                  <a class="nav-link" href="#how-it-works">How It works</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Benefits</a>
+                  <a class="nav-link" href="#benefits">Benefits</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Testimonials</a>
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">FAQ</a>
+                  <a class="nav-link" href="#faq">FAQ</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#contact-us">Contact Us</a>
                </li>
             </ul>
          </div>
@@ -70,19 +72,26 @@
    <!-- ============================== -->
    <!-- summary section -->
    <!-- ============================== -->
-   <!-- <div class="summary">
-      <img src="assets/img/W.png" alt="">
-      <p class="summary">
-         e have over 15 years experience in import, export, and auctions. We specialize in UAE customers who want all
-         brands of
-         vehicles from US auctions. Our goal is to give you peace of mind when you bid or buy a vehicle on CarBank. Your
-         satisfaction is our guarantee.
-      </p>
-   </div> -->
+   <div class="summary" id="welcome">
+      <div class="container">
+         <div class="experience">
+            <img src="assets/img/W.png" alt="">
+            <p class="summary">
+               e have over 15 years experience in import, export, and auctions. We specialize in UAE customers who want
+               all
+               brands of
+               vehicles from US auctions. Our goal is to give you peace of mind when you bid or buy a vehicle on
+               CarBank. Your
+               satisfaction is our guarantee.
+            </p>
+         </div>
+      </div>
+
+   </div>
    <!-- ============================== -->
    <!-- how it works section -->
    <!-- ============================== -->
-   <div class="how-it-works">
+   <div class="how-it-works" id="how-it-works">
       <div class="container">
          <h1 class="title">How It Works</h1>
          <div class="items">
@@ -147,7 +156,7 @@
    <!-- ============================== -->
    <!-- benefits section -->
    <!-- ============================== -->
-   <div class="benefits">
+   <div class="benefits" id="benefits">
       <div class="custom-container">
          <h1 class="title">Benefits</h1>
          <div class="items">
@@ -195,7 +204,7 @@
    <!-- ============================== -->
    <!-- testimonials section -->
    <!-- ============================== -->
-   <div class="testimonials">
+   <div class="testimonials" id="testimonials">
       <div class="custom-container">
          <h1 class="title">Testimonials</h1>
          <div class="items">
@@ -235,7 +244,7 @@
    <!-- ============================== -->
    <!-- FAQ section -->
    <!-- ============================== -->
-   <div class="faq">
+   <div class="faq" id="faq">
       <div class="custom-container">
          <h1 class='title'>FAQ</h1>
          <div class="question-answer">
@@ -294,7 +303,7 @@
    <!-- ============================== -->
    <!-- contact us section  -->
    <!-- ============================== -->
-   <div class="contact-us">
+   <div class="contact-us" id="contact-us">
       <div class="custom-container">
          <h1 class="title">Contact Us</h1>
          <p class="question">Do you have any other questions?</p>
@@ -303,8 +312,8 @@
             have.
          </p>
          <div class="social-form">
-            <div class="row mt-4">
-               <div class="col-sm-12 col-md-4">
+            <div class="row mt-sm-0 mt-md-4">
+               <div class="col-sm-12 col-md-4 mt-sm-0 mt-md-4 pt-sm-0 pt-md-4">
                   <div class="whatsapp d-flex align-items-center">
                      <i class="fa-brands fa-whatsapp"></i>
                      <a href="">Click here for WhatsApp</a>
@@ -313,11 +322,15 @@
                      <i class="fa-regular fa-envelope"></i>
                      <a href="mailto:info@carbank.us">info@carbank.us</a>
                   </div>
-
                </div>
                <div class="col-sm-12 col-md-8">
-                  <h2 class="h2">Contact Form</h2>
-                  <form action="">
+                  <div class="row">
+                     <div class="col-sm-12 col-md-2"></div>
+                     <div class="col-sm-12 col-md-10">
+                        <h2 class="h2">Contact Form</h2>
+                     </div>
+                  </div>
+                  <form action="" class="mt-4">
                      <div class="mb-3 row">
                         <label for="inputName" class="col-sm-12 col-md-2 col-form-label fw-bold">Name</label>
                         <div class="col-sm-12 col-md-10">
@@ -348,7 +361,64 @@
          </div>
       </div>
    </div>
-   
+   <div class="divider"></div>
+   <div class="become-member">
+      <div class="custom-container">
+         <div class="row">
+            <div class="col-sm-12 col-md-6">
+               <h1 class="title">Become a member today!</h1>
+               <p class="answer">No membership fees, sign up in seconds and start bidding in minutes.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex justify-content-end align-items-start">
+               <button class="btn btn-custom-signup d-flex align-items-center">
+                  <img src="assets/img/signup.png" alt="">
+                  <span>Signup</span>
+               </button>
+            </div>
+         </div>
+      </div>
+      <div class="row forth-banner">
+         <div class="col-12">
+            <img src="assets/img/forth-banner.png" alt="" class="img-fluid">
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="logo">
+         <div class="row">
+            <div class="col-sm-12">
+               <img src="assets/img/Logo_Reverse_White@2x.png" alt="">
+            </div>
+         </div>
+      </div>
+      <div class="custom-container py-4">
+         <div class="row address mt-4">
+            <div class="col-sm-12 col-md-2">
+               <span class="h3">
+                  12250 Main Street
+                  Sacramento, CA 92345
+               </span>
+            </div>
+         </div>
+         <div class="row phone-number mt-4">
+            <div class="col-sm-12 col-md-2 col-md-2">
+               <span class="h3">(909) 555-1212</span>
+            </div>
+         </div>
+         <div class="row mt-4">
+            <div class="col-sm-12 mt-4 col-md-4">
+               <span class="h3">© 2024 CarBank, LLC - All Rights Reserved</span>
+            </div>
+            <div class="col-sm-12 mt-4 col-md-2">
+               <a href="" class="h3">Privacy Policy</a>
+            </div>
+            <div class="col-sm-12 mt-4 col-md-2">
+               <a href="" class="h3">Terms of Service</a>
+            </div>
+         </div>
+      </div>
+
+   </footer>
 
 
    <script src="assets/js/popper.min.js"></script>

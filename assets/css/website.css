@@ -57,26 +57,35 @@ nav {
   background-repeat: no-repeat;
   padding-bottom: 63px;
 }
+/* ========================================== */
+/* style for experience section */
+/* ========================================== */
 div.summary {
-  padding-bottom: 119px;
+  padding-bottom: 100px;
 }
-div.summary p.summary {
+div.experience {
+  position: relative;
+}
+div.experience img {
+  position: absolute;
+  top: 45px;
+  width: 157.08px;
+  height: 123.86px;
+}
+div.experience p.summary {
   font-family: var(--roboto);
   font-size: 35px;
   font-style: normal;
   font-weight: 300;
   line-height: 48px; /* 133.333% */
   letter-spacing: 0.396px;
-  margin-left: 468px;
-  margin-right: 144px;
   text-indent: 60px;
+  padding-top: 119px;
+  padding-left: 100px;
 }
 /* ========================================== */
 /* style for how it works section */
 /* ========================================== */
-div.how-it-works div.items {
-  /* margin: 37px 260px; */
-}
 div.how-it-works div.items div.row div.col-2 {
   margin-right: 49px;
 }
@@ -95,9 +104,6 @@ div.how-it-works div.items div.row {
 
 div.benefits {
   padding-bottom: 120px;
-}
-div.benefits div.items {
-  /* margin: 0px 61px; */
 }
 div.benefits div.items img {
   margin-bottom: 19px;
@@ -138,7 +144,9 @@ div.testimonials img {
   display: block;
   margin-bottom: 33px;
 }
-
+/* ========================================== */
+/* style for faq */
+/* ========================================== */
 div.faq {
   padding-bottom: 119px;
 }
@@ -166,11 +174,13 @@ div.third-banner {
   width: 100%;
   height: 896px;
   background-image: url("../img/image\ 73.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 63px;
 }
-
+/* ========================================== */
+/* style for contact us section */
+/* ========================================== */
 div.contact-us {
   padding: 26px 0px 65px 0px;
   background-color: #f9f9f9;
@@ -187,4 +197,26 @@ div.email i {
   font-size: 50px;
   font-size: 50px;
   margin-right: 27px;
+}
+div.divider {
+  width: 100%;
+  height: 20px;
+  background-color: var(--ferrari);
+}
+.become-member {
+  padding-top: 26px;
+}
+div.forth-banner img {
+  height: 636px;
+  width: 100%;
+  object-fit: cover;
+}
+footer {
+  background-color: var(--ferrari);
+}
+footer img {
+  height: 83px;
+}
+footer .h3 {
+  color: white;
 }

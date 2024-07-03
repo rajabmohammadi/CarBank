@@ -41,11 +41,24 @@
   .container-xxl {
     padding-right: 0px;
   }
+  div.summary p.summary {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  div.experience img {
+    width: 81px;
+    height: 64px;
+  }
+  div.experience p.summary {
+    padding-left: 30px;
+    padding-top: 90px;
+  }
   /* ============================ */
   /* media query for banners */
   /* ============================ */
   .banner-title {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 40px; /* 125% */
   }
   .first-banner,

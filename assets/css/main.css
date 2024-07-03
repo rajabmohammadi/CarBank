@@ -4,6 +4,10 @@
 }
 body {
   margin: 0px;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
 }
 /* our variables */
 :root {
@@ -20,6 +24,7 @@ body {
   --roboto: "Roboto";
   --roboto-condensed: "Roboto Condensed";
   --red: #d2232a;
+  --ferrari: #d2232a;
 }
 p {
   color: var(--black);
